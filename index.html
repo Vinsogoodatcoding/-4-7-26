@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/p5@1.11.12/lib/p5.min.js"></script>
+   
 </head>
 <body>
-    <script>
+    <script>     
 function setup() {
-  createCanvas(100, 100);
-  background(200);
+  createCanvas(windowWidth, windowHeight);
+  background('#A4031F');
   rect(30, 20, 55, 55);
+}
+function draw() {
+    console.log(mouseX)
 }
     </script>
 </body>
